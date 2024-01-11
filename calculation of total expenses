@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include<stdio.h>
+int main()
+{
+    int qty,dis;
+    float rate,tot;
+    printf("enter quentity and rate");
+    scanf("%d%f",&qty,&rate);
+    if(qty>1000)
+    dis=10;
+    else
+    dis=10;
+    tot=(qty*rate)-(qty*rate*dis/100);
+    printf("total expenses=Rs.%f\n",tot);
+    return 0;
+    
+}
